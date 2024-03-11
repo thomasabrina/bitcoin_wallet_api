@@ -35,6 +35,7 @@ To initialize the database with the necessary tables, run the following command:
 ### Seeding the Database
 
 A script named `seed.py` is provided to seed the database with initial data. Execute the script by running: python seed.py
+
 This will populate the database with initial transactions and balances for testing purposes.
 
 ## Running the Application

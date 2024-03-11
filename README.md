@@ -19,33 +19,34 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-1. Clone the repository to your local machine: git clone https://github.com/thomasabrina/bitcoin_wallet_api.git
-2. Navigate to the project directory: cd bitcoin_wallet_api
-3. Create a virtual environment (optional): python -m venv venv
+1. Clone the repository to your local machine: `git clone https://github.com/thomasabrina/bitcoin_wallet_api.git`
+2. Navigate to the project directory: `cd bitcoin_wallet_api`
+3. Create a virtual environment (optional): `python -m venv venv`
 4. Activate the virtual environment:
-   - On Windows: .\venv\Scripts\activate
-   - On Unix or MacOS: source venv/bin/activate
-5. Install the required packages: pip install -r requirements.txt
+   - On Windows: `.\venv\Scripts\activate`
+   - On Unix or MacOS: `source venv/bin/activate`
+5. Install the required packages: `pip install -r requirements.txt`
 
 ## Initial Database Setup
 
-To initialize the database with the necessary tables, run the following command: flask db upgrade
+To initialize the database with the necessary tables, run the following command: `flask db upgrade`
 
 
 ### Seeding the Database
 
-A script named `seed.py` is provided to seed the database with initial data. Execute the script by running: python seed.py
-
+A script named `seed.py` is provided to seed the database with initial data. 
+Execute the script by running: `python seed.py`
 This will populate the database with initial transactions and balances for testing purposes.
 
 ## Running the Application
 
-To run the Bitcoin Wallet API, use the following command: flask run
+To run the Bitcoin Wallet API, use the following command: `flask run`
 The application will be accessible at `http://127.0.0.1:5000/`, where you can interact with the API endpoints.
 
 ## Running Unit Tests
 
-Unit tests are an essential part of ensuring the reliability of the application. To run the unit tests for utility functions, execute the `test_utils.py` file directly with Python. This can be done as follows: python test_utils.py
+Unit tests are an essential part of ensuring the reliability of the application. To run the unit tests for utility functions, execute the `test_utils.py` file directly with Python. 
+This can be done as follows: `python test_utils.py`
 This command will run the tests defined in the `test_utils.py` file. Ensure you are in the root directory of the project when running this command.
 
 ## API Endpoints

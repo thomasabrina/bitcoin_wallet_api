@@ -1,6 +1,6 @@
 # Bitcoin Wallet API
 
-The Bitcoin Wallet API is a Flask-based application that allows users to manage Bitcoin transactions and balances. This README provides instructions on how to set up, run, and test the application.
+The Bitcoin Wallet API is a Flask-based application that allows users to manage Bitcoin transactions and balances. This application is built using Python, Flask, and SQLite, making it lightweight and easy to deploy. This README provides instructions on how to set up, run, and test the application.
 
 ## Features
 
